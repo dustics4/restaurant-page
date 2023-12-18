@@ -1,4 +1,7 @@
 import renderAbout from "./about";
+import navBar from "./navigaton";
+
+navBar();
 
 export default function renderHome() {
     const content = document.querySelector('div#content');
