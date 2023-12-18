@@ -1,3 +1,5 @@
+import renderAbout from "./about";
+
 export default function renderHome() {
     const content = document.querySelector('div#content');
     const homeContent = document.createElement('div');
@@ -13,11 +15,18 @@ export default function renderHome() {
     h2Text.textContent = "Welcome to";
     h1Text.textContent = "Leo's";
     pText.textContent = "The birth place of your delicious experiences";
+    infoButton.textContent = 'Click here to find out more!';
 
+    homeContent.id = 'home';
     homeContent.appendChild(h2Text);
     homeContent.appendChild(h1Text);
     homeContent.appendChild(pText);
     homeContent.appendChild(infoDiv);
     infoDiv.appendChild(infoButton);
+
+    content.innerHTML = '';
+    content.appendChild(homeContent);
+
+    infoButton.addEventListener('click', renderAbout);
 
 }

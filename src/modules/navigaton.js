@@ -20,4 +20,6 @@ export default function navBar (){
     //content.innerHTML = '';
     content.appendChild(nav);
 
+
 }
+
