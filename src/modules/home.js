@@ -24,7 +24,6 @@ export default function renderHome() {
     homeContent.appendChild(infoDiv);
     infoDiv.appendChild(infoButton);
 
-    content.innerHTML = '';
     content.appendChild(homeContent);
 
     infoButton.addEventListener('click', renderAbout);
