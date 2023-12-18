@@ -1,1 +1,3 @@
-console.log("Hello");
+import navBar from "./modules/navigaton";
+
+navBar();
