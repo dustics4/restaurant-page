@@ -5,6 +5,10 @@ export default function navBar (){
     const aboutButton = document.createElement('button');
     const contactButton = document.createElement('button');
 
+    homeButton.classList.add('home-button');
+    aboutButton.classList.add('about-button');
+    contactButton.classList.add('contact-button');
+
     homeButton.textContent = "Home";
     aboutButton.textContent = "About";
     contactButton.textContent = "Contact";
