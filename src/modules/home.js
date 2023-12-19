@@ -20,7 +20,7 @@ export default function renderHome() {
     //adding some data into the content
     h2Text.textContent = "Welcome to";
     h1Text.textContent = "Leo's";
-    pText.textContent = "The birth place of your delicious experiences";
+    pText.textContent = "The birth place of your delicious experiences.";
     infoButton.textContent = 'Click here to find out more!';
 
     //creating id and appending to the div
