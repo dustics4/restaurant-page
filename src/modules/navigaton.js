@@ -1,5 +1,6 @@
 import renderHome from "./home";
 import renderAbout from "./menu";
+import contactUs from "./ contact";
 
 export default function navBar (){
     //creating the content
@@ -31,6 +32,7 @@ export default function navBar (){
 
     homeButton.addEventListener('click', renderHome);
     aboutButton.addEventListener('click', renderAbout);
+    contactButton.addEventListener('click', contactUs);
 
 }
 
