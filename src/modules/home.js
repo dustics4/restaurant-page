@@ -1,9 +1,7 @@
 //importing functions from other files
-import renderAbout from "./about";
-import navBar from "./navigaton";
-
+import renderAbout from "./menu"; 
 //running navbar function so it always shows first
-navBar();
+
 
 export default function renderHome() {
     //creating the content
@@ -27,6 +25,7 @@ export default function renderHome() {
 
     //creating id and appending to the div
     homeContent.id = 'home';
+    content.innerHTML = '';
     homeContent.appendChild(h2Text);
     homeContent.appendChild(h1Text);
     homeContent.appendChild(pText);
