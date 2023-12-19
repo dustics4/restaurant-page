@@ -18,7 +18,7 @@ export default function navBar (){
 
     //each button does something different. Adding text
     homeButton.textContent = "Home";
-    aboutButton.textContent = "About";
+    aboutButton.textContent = "Menu";
     contactButton.textContent = "Contact";
 
     //appends to div

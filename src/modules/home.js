@@ -18,8 +18,7 @@ export default function renderHome() {
     infoButton.classList.add('info-button');
 
     //adding some data into the content
-    h2Text.textContent = "Welcome to";
-    h1Text.textContent = "Leo's";
+    h1Text.textContent = "Welcome to Leo's";
     pText.textContent = "The birth place of your delicious experiences.";
     infoButton.textContent = 'Click here to find out more!';
 
